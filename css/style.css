@@ -1,0 +1,74 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+/** HEADER **/
+.container-fluid {
+  min-width: 300px;
+}
+@media (max-width: 435px) {
+  .navbar-brand {
+    font-size: 10px;
+    padding: 5px;
+  }
+}
+
+.navbar-header {
+  height: 8em;
+}
+
+.navbar-toggle {
+  margin: 30px;
+}
+
+h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 3em;
+  margin-left: 30px;
+}
+
+/* END HEADER */
+
+h2 {
+  margin: 30px;
+ 
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.menu {
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: grey;
+  min-width: 300px;
+  margin: 15px;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: black;
+  position: relative;
+  padding: 5px;
+}
+
+.menu-categories {
+  float: left;
+
+  overflow: fit-content;
+}
+.description {
+  padding-top: 150px;
+  padding: 20px;
+  text-align: left;
+  font-size: 1em;
+  font-weight: normal;
+  top: 50px;
+}
+
+.top-heading {
+  font-size: 12px;
+  font-weight: normal;
+}
